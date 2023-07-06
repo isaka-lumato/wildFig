@@ -43,6 +43,8 @@
 .fa-icon {
   font-size: 100px;
   padding-bottom: 5%;
+  display: grid;
+  place-content: center;
 }
 .margBot {
   margin-bottom: 10%;
