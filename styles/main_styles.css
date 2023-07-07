@@ -39,7 +39,6 @@
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 
-
 .fa-icon {
   font-size: 100px;
   padding-bottom: 5%;
@@ -712,11 +711,35 @@ input[type="number"]::-webkit-outer-spin-button {
 7. Gallery
 *********************************/
 
+.carousel-next-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  /* Add any additional styling you desire */
+}
+.carousel-next-icon i {
+  font-size: 2rem;
+  color: green;
+}
+.carousel-previous-icon i {
+  font-size: 2rem;
+  color: green;
+}
+.carousel-previous-icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  /* Add any additional styling you desire */
+}
 .gallery {
   width: 100%;
+  background-color: rgba(0, 128, 0, 0.308);
+  padding: 3%;
 }
 .gallery_item {
   height: calc(100vw / 4);
+  position: relative;
+  margin: 2%;
 }
 .gallery_item a {
   display: block;
