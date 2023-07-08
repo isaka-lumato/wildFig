@@ -734,7 +734,7 @@ input[type="number"]::-webkit-outer-spin-button {
 .gallery {
   width: 100%;
   background-color: rgba(0, 128, 0, 0.308);
-  padding: 3%;
+  padding: 2%;
 }
 .gallery_item {
   height: calc(100vw / 4);
