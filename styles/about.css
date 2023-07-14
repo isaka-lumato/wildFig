@@ -37,6 +37,11 @@
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
+
+.sizeCss{
+	font-size: 0.5rem;
+}
+
 body
 {
 	font-family: 'Raleway', sans-serif;
@@ -291,6 +296,8 @@ section
 	padding-left: 0;
 	padding-right: 0;
 	max-width: 100%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 .container_custom .container .row
 {
@@ -756,14 +763,14 @@ input[type=number]::-webkit-outer-spin-button
 }
 .split_section_right_content
 {
-	padding-top: 112px;
+	/* padding-top: 112px; */
 	padding-left: 67px;
 	padding-bottom: 77px;
 	padding-right: 130px;
 }
 .split_section_title h1
 {
-	font-size: 72px;
+	font-size: 3rem;
 }
 .split_section_text
 {
