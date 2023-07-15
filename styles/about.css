@@ -998,7 +998,7 @@ border-radius: 3%;
 }
 .footer_logo > div:first-of-type
 {
-	width: 235px;
+	/* width: 235px; */
 	height: 74px;
 	border: solid 3px #393939;
 	font-size: 43.32px;
