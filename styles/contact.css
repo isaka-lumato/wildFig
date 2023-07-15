@@ -341,7 +341,7 @@ section {
   height: 90px;
 }
 .logo {
-  width: 130px;
+  width: fit-content;
   height: 41px;
   border: solid 2px #ffffff;
   text-align: center;
