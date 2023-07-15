@@ -354,16 +354,7 @@ section
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
 }
-img {
-	border-radius: 8%;
-	width: 80%;
-	margin-left: 8%;
-}
-.roundAges {
-	border-radius: 8%;
-	width: 80%;
-	margin-left: 8%;
-}
+
 .header.scrolled .header_content
 {
 	height: 90px;
@@ -736,10 +727,13 @@ input[type=number]::-webkit-outer-spin-button
 /*********************************
 6. About
 *********************************/
+/* .roundAges{
+border-radius: 3%;
+} */
 
 .about
 {
-	background: #ffffff;
+	background: #ffa37bcc;
 	padding-top: 107px;
 	padding-bottom: 104px;
 }
