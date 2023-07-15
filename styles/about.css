@@ -354,6 +354,16 @@ section
 	-o-transition: all 400ms ease;
 	transition: all 400ms ease;
 }
+img {
+	border-radius: 8%;
+	width: 80%;
+	margin-left: 8%;
+}
+.background_image {
+	border-radius: 8%;
+	width: 80%;
+	margin-left: 8%;
+}
 .header.scrolled .header_content
 {
 	height: 90px;
